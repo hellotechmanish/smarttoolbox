@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Set the tracing root to the project directory
+  outputFileTracingRoot: process.cwd(),
 };
 
 export default nextConfig;
